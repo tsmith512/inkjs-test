@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "inkjs-compiler -o dist/output.json index.ink"
+    "build": "inkjs-compiler -o dist/output.json index.ink && cp node_modules/inkjs/dist/ink.js dist/"
   },
   "dependencies": {
     "inkjs": "^2.4.0"

@@ -8,7 +8,7 @@
 </head>
 <body>
   <div id="story" class="container"></div>
-  <script src="node_modules/inkjs/dist/ink.js"></script>
+  <script src="ink.js"></script>
   <script>
 const storyContent = fetch('output.json').then(r => r.json()).then(c => buildStory(c));
 function buildStory (storyContent) {
